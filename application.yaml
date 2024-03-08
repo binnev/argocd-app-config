@@ -13,7 +13,7 @@ spec:
   # this is the git repo that argo watches for changes
   source: 
     # this is Nana's git repo with her configuration files
-    repoURL: https://gitlab.com/nanuchi/argocd-app-config.git
+    repoURL: https://github.com/binnev/argocd-app-config.git
     targetRevision: HEAD
     # we can track a specific path (directory) in a repo. This is the folder with the files you want to watch 
     path: dev
